@@ -1,0 +1,24 @@
+# Local notebooks and planning notes
+/notebook/
+*.ipynb
+!/reports/evaluation.ipynb
+.ipynb_checkpoints/
+/design.md
+/tests/
+
+# Local agent instructions and project notes at any depth
+[Aa][Gg][Ee][Nn][Tt][Ss].[Mm][Dd]
+[Pp][Rr][Oo][Jj][Ee][Cc][Tt]_[Nn][Oo][Tt][Ee].[Mm][Dd]
+
+# Local datasets, generated models, and incomplete downloads
+/data/
+/models/
+*.part
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
