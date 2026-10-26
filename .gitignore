@@ -10,9 +10,20 @@
 [Aa][Gg][Ee][Nn][Tt][Ss].[Mm][Dd]
 [Pp][Rr][Oo][Jj][Ee][Cc][Tt]_[Nn][Oo][Tt][Ee].[Mm][Dd]
 
-# Local datasets, generated models, and incomplete downloads
-/data/
-/models/
+# Local downloads and generated data, except the published snapshot and credits
+/data/*
+!/data/raw/
+/data/raw/*
+!/data/raw/acknowledgement.md
+!/data/interim/
+/data/interim/*
+!/data/interim/cleaned_features_with_dr3.csv
+!/data/interim/cleaned_lightcurves.csv
+!/data/processed/
+/data/processed/*
+!/data/processed/split_manifest.csv
+
+# Incomplete downloads
 *.part
 
 # Python caches and local environments

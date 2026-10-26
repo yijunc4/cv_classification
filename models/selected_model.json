@@ -1,0 +1,20 @@
+{
+  "model": "lgbm_13",
+  "selection": "validation AP, then validation F1",
+  "seed": 42,
+  "features": [
+    "n_obs",
+    "time_span_days",
+    "median_mag",
+    "std_mag",
+    "iqr_mag",
+    "amplitude_p95_p05",
+    "bright_excursion_mag",
+    "n_peaks_rm_2_7",
+    "skew",
+    "bp_rp",
+    "parallax",
+    "parallax_over_error",
+    "pm"
+  ]
+}
